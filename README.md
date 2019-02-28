@@ -42,5 +42,5 @@ curl --header "Content-Type: application/json" --request POST --data '{"token": 
 
 The token can be destroyed POSTing it at the logout function:
 ```bash
-curl --header "Content-Type: application/json" --request POST --data '{"token": "TOKEN"}' 127.0.0.1:8080/check-logout
+curl --header "Content-Type: application/json" --request POST --data '{"token": "TOKEN"}' 127.0.0.1:8080/logout
 ```
